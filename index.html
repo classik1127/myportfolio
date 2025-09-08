@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel Victor - Premium Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+</head>
+<body class="light-mode">
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">Emmanuel Victor</a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title animate-fade-in-up">Hi, I'm <span class="highlight">Emmanuel Victor</span></h1>
+                <p class="hero-subtitle animate-fade-in-up delay-200">A Passionate Web Developer </p>
+                <div class="hero-buttons animate-fade-in-up delay-400">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="cli/image.com/aws  logo.jpg" download class="btn btn-secondary">Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-image animate-fade-in-right">
+                <img src="cli/image.com/761c97120bd22e615da8002d62f2cc70.jpg" alt="Developer Illustration">
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="about-content">
+                <h2 class="section-title animate-slide-in-left">About Me</h2>
+                <p class="animate-fade-in delay-200">
+                     Hello! I'm Emmanuel Victor, a dedicated web developer with a knack for crafting robust and user-friendly web applications. 
+                </p>
+                <p class="animate-fade-in delay-400">
+                    I specialize in building responsive front-end interfaces with React and creating scalable back-end APIs with Node.js. I thrive on solving complex problems and continuously learning new technologies to deliver high-quality solutions.
+                </p>
+                <p class="animate-fade-in delay-600">
+                    When I'm not coding, you can find me exploring new design patterns, reading tech blogs  Let's build something amazing together!
+                </p>
+            </div>
+            <div class="about-image animate-fade-in-right delay-200">
+                <img src="cli/image.com/Screenshot_20250811-135411.jpg" alt="Your Profile Picture" class="profile-pic">
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2 class="section-title animate-slide-in-right">My Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category animate-fade-in delay-200">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <ul>
+                        <li><img src="cli/image.com/html5 logo.jpg" alt="HTML5"> HTML5</li>
+                        <li><img src="cli/image.com/css logo.jpg" alt="CSS3"> CSS3</li>
+                        <li><img src="cli/image.com/javascript logo.jpg" alt="JavaScript"> JavaScript (ES6+)</li>
+                        <li><img src="cli/image.com/react logo.jpg" alt="React"> React.js</li>
+                        <!-- <li><img src="images/icons/vue.svg" alt="Vue"> Vue.js</li> -->
+                        <li><img src="cli/image.com/taiwind logo.jpg" alt="Tailwind CSS"> Tailwind CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-category animate-fade-in delay-400">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <ul>
+                        <li><img src="cli/image.com/node js logo.jpg" alt="Node.js"> Node.js</li>
+                        <li><img src="cli/image.com/express js logo.jpg" alt="Express.js"> Express.js</li>
+                        <!-- <li><img src="images/icons/python.svg" alt="Python"> Python</li>
+                        <li><img src="images/icons/django.svg" alt="Django"> Django</li> -->
+                        <li><img src="cli/image.com/mogodb logo.jpg" alt="MongoDB"> MongoDB</li>
+                        <li><img src="cli/image.com/post sql logoo.jpg" alt="PostgreSQL"> PostgreSQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category animate-fade-in delay-600">
+                    <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+                    <ul>
+                        <li><img src="cli/image.com/github logo.jpg" alt="Git"> Git & GitHub</li>
+                        <!-- <li><img src="images/icons/webpack.svg" alt="Webpack"> Webpack</li>
+                        <li><img src="images/icons/npm.svg" alt="NPM"> NPM / Yarn</li> -->
+                        <li><img src="cli/image.com/figma logo.jpg" alt="Figma"> Figma</li>
+                        <li><img src="cli/image.com/docker logo.jpg" alt="Docker"> Docker (Basics)</li>
+                        <li><img src="cli/image.com/aws  logo.jpg" alt="AWS"> AWS (S3, EC2)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2 class="section-title animate-slide-in-left">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card animate-fade-in delay-200">
+                    <img src="images/projects/project1.jpg" alt="Project 1 Thumbnail" class="project-thumbnail">
+                    <div class="project-info">
+                        <h3>E-commerce Platform</h3>
+                        <p>A full-stack e-commerce site featuring user authentication, product catalog, shopping cart, and payment integration.</p>
+                        <div class="project-tech">
+                            <span>React</span> <span>Node.js</span> <span>Express</span> <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn-link"><i class="fas fa-eye"></i> Live Demo</a>
+                            <a href="#" target="_blank" class="btn-link"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-fade-in delay-400">
+                    <img src="images/projects/project2.jpg" alt="Project 2 Thumbnail" class="project-thumbnail">
+                    <div class="project-info">
+                        <h3>Task Management App</h3>
+                        <p>A minimalist task manager with drag-and-drop functionality, real-time updates, and user-friendly interface.</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span> <span>Firebase</span> <span>SCSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn-link"><i class="fas fa-eye"></i> Live Demo</a>
+                            <a href="#" target="_blank" class="btn-link"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-fade-in delay-600">
+                    <img src="images/projects/project3.jpg" alt="Project 3 Thumbnail" class="project-thumbnail">
+                    <div class="project-info">
+                        <h3>Personal Blog Site</h3>
+                        <p>A responsive blog platform built with a custom CMS, allowing for easy content creation and management.</p>
+                        <div class="project-tech">
+                            <span>Django</span> <span>Python</span> <span>PostgreSQL</span> <span>HTML/CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn-link"><i class="fas fa-eye"></i> Live Demo</a>
+                            <a href="#" target="_blank" class="btn-link"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            <div class="view-more-projects animate-fade-in delay-800">
+                <a href="#contact" class="btn btn-primary">Have a Project in Mind?</a>
+            </div>
+        </section>
+
+        <section id="resume" class="resume-section">
+            <h2 class="section-title animate-slide-in-right">My Resume</h2>
+            <div class="resume-content">
+                <p class="animate-fade-in delay-200">
+                    Feel free to download my full resume to learn more about my professional experience, education, and skills.
+                </p>
+                <a href="cli/image.com/2.jpg" download class="btn btn-primary animate-fade-in delay-400">
+                    <i class="fas fa-download"></i> Download Full Resume
+                </a>
+                <div class="resume-highlights animate-fade-in delay-600">
+                    <h3>Key Highlights:</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> 2+ years of experience in web development.</li>
+                        <li><i class="fas fa-check-circle"></i> Proven ability to lead and deliver complex projects.</li>
+                        <li><i class="fas fa-check-circle"></i> Expertise in responsive design and cross-browser compatibility.</li>
+                        <li><i class="fas fa-check-circle"></i> Strong problem-solving skills and a passion for clean code.</li>
+                    </ul>
+                </div>
+                </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2 class="section-title animate-slide-in-left">Get In Touch</h2>
+            <p class="contact-intro animate-fade-in delay-200">
+                Have a project idea, a question, or just want to say hello? I'd love to hear from you!
+            </p>
+            <div class="contact-container">
+                <form class="contact-form animate-fade-in delay-400" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Project Inquiry, Collaboration, etc.">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="Your message here..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <p id="form-status" class="form-status"></p>
+                </form>
+
+                <div class="contact-info animate-fade-in delay-600">
+                    <h3>Connect with me:</h3>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:@Gmail.com">VE002601@Gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+2347083968050">+2347083968050</a></p>
+                    <div class="social-links">
+                        <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/codynix07?utm_source=qr&igsh=MXduY2tyd3N4ZnhzNA==" target="_blank" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://chat.whatsapp.com/Dsau36R4MO5Dq1b5jYl73l" target="_blank" aria-label="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; <span id="current-year"></span> Emmanuel Victor. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+            </div>
+            <button class="back-to-top" id="backToTop">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+    <!-- <div class="navbar">
+        <ul class="ul">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#ourmenu">Ourmenu</a></li>
+        <li><a href="#review">Review</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+        </ul>
+    </div>
+    <section ID="home">
+        <div class="home">
+        <p class="homep1">welcome to</p>
+        <h1 class="homeh1">Dish Craft</h1>
+        <h3 class="homeh2">Crafting Flavour, One Dish at a Time</h3>
+        <button class="btn2">Our Story</button>
+        <button class="btn3">Our Menu</button>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+        <div class="card">
+            <img src="" alt="cafe img">
+        </div>
+        <div class="card">
+            <h2 class="abouth1">Dish Craft</h2>
+            <p class="aboutp1">Since 2010, DIsh Craft has been crafting Flavors that blend creativity with tradition. Our chefs use fresh, locally sourced ingredient to create dishes that are ad artful as they are delicious </p>
+            <button class="aboutbtn">Meet chefs</button>
+        </div>
+        </div>
+    </section>
+    <section id="ourmenu">
+        <div class="ourmenucards">
+        <h1 class="ourmenuh1">Delicious Menu</h1>
+        <p class="aboutfdname">Classic Pancakes <span>$8.50</span></p>
+        
+        <p class="aboutfdname">Fried Chips & Egss <span>$11.00</span></p>
+        
+        <p class="aboutfdname">Trench Toast Delight <span>$9.00</span></p>
+            
+        <p class="aboutfdname">Omelette Special <span>$10.50</span></p>
+        
+        <p class="aboutfdname">Avocado Toast <span>$7.50</span></p>
+        
+        </div>
+
+        <div class="ourmenucard">
+        <div class="ourmenucards">
+            <h1 class="ourmenuh1">favorite Menu</h1>
+            <p class="aboutfdname">Choco Waffles <span>$13.50</span></p>
+        
+        <p class="aboutfdname">Pancake Tower <span>$12.00</span></p>
+        
+        <p class="aboutfdname">Bacon eggs <span>$11.50</span></p>
+            
+        <p class="aboutfdname">Deluxe Bagel <span>$13.00</span></p>
+        
+        <p class="aboutfdname">Croissant Platter <span>$14.00</span></p>
+        </div>
+        </div>
+    </section>
+    <section id="review">
+        <p class="reviewp1">ReviewbyCustomer</p>
+        <h2 class="review h2">Testimonials</h2>
+        <div class="testimonial-dot" data-top="1"></div>
+        <div class="testimonial-dot" data-top="2"></div>
+        <div class="testimonial-dot" data-top="3"></div>
+
+
+        <article class="timeline-item left">
+        <div class="profile">
+            <img src="https://via.placeholder.com/64" alt="Sandra">
+            <div class="meta">
+            <h4>Sandra</h4>
+            <span class="role">Customer</span>
+            </div>
+        </div>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.</p>
+        <div class="rating">4.5 <span class="stars">★★★★☆</span></div>
+        </article>
+
+        <article class="timeline-item right">
+        <div class="profile">
+            <img src="https://via.placeholder.com/64" alt="Don">
+            <div class="meta">
+            <h4>Don</h4>
+            <span class="role">Customer</span>
+            </div>
+        </div>
+        <p class="text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+        <div class="rating">4.8 <span class="stars">★★★★★</span></div>
+        </article>
+
+        <article class="timeline-item left">
+        <div class="profile">
+            <img src="https://via.placeholder.com/64" alt="Alice">
+            <div class="meta">
+            <h4>Alice</h4>
+            <span class="role">Customer</span>
+            </div>
+        </div>
+        <p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+        <div class="rating">4.7 <span class="stars">★★★★☆</span></div>
+        </article>
+
+    </section>
+    <section id="contact">
+        <div class="cards">
+        <div class="cards">
+            <p class="contactp1">SayHello</p>
+            <h2 class="contacth1">Contact</h2>
+            <form action="">
+            <label for="name" class="label">Name</label>
+            <input type="text" id="name" required placeholder="Enter your name">
+            <label for="email" class="label">Email</label>
+            <input type="email" id="email" required placeholder="Enter your Email"><br><br>
+            <label for="massage" class="labelm">Massage</label><br>
+            <textarea name="massage" rows="4"  id="massage" required placeholder="Enter your massage"></textarea><br>  
+            <button type="submit">Send Massage</button>
+        </div>
+        </form>
+        <div class="cards"></div>
+        </div>
+    </section> -->
