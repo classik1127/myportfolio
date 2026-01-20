@@ -1187,6 +1187,9 @@ body.dark-mode .back-to-top:hover {
 }
 
 @media (max-width: 480px) {
+    .topimage{
+        width: 100% !important;
+    }
     .hero-title {
         font-size: 2em;
     }
