@@ -1,13 +1,14 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emmanuel Victor - Premium Web Developer Portfolio</title>
+    <title>my website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_upward" />
 </head>
+
 <body class="light-mode">
     <header class="header">
         <nav class="navbar">
@@ -15,14 +16,12 @@
             <ul class="nav-links">
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
+                <li><a href="#skills" class="active">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#resume">Resume</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <button id="theme-toggle" class="theme-toggle">
-                <i class="fas fa-moon"></i>
-            </button>
+            <button id="theme-toggle" class="theme-toggle">hh<i class="fas fa-moon"></i></button>
             <div class="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -38,11 +37,11 @@
                 <p class="hero-subtitle animate-fade-in-up delay-200">A Passionate Web Developer </p>
                 <div class="hero-buttons animate-fade-in-up delay-400">
                     <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="cli/image.com/aws  logo.jpg" download class="btn btn-secondary">Download Resume</a>
+                    <a href="#" download="" class="btn btn-secondary">Download Resume</a>
                 </div>
-            </div>
+            </div> 
             <div class="hero-image animate-fade-in-right">
-                <img src="cli/image.com/761c97120bd22e615da8002d62f2cc70.jpg" alt="Developer Illustration">
+                <img src="761c97120bd22e615da8002d62f2cc70.jpg" alt="Developer Illustration">
             </div>
         </section>
 
@@ -53,51 +52,51 @@
                      Hello! I'm Emmanuel Victor, a dedicated web developer with a knack for crafting robust and user-friendly web applications. 
                 </p>
                 <p class="animate-fade-in delay-400">
-                    I specialize in building responsive front-end interfaces with React and creating scalable back-end APIs with Node.js. I thrive on solving complex problems and continuously learning new technologies to deliver high-quality solutions.
+                    I specialize in building responsive front-end interfaces with HTML, CSS and JAVASCRIPT . <br> I thrive on solving complex problems and continuously learning new technologies to deliver high-quality solutions.
                 </p>
                 <p class="animate-fade-in delay-600">
                     When I'm not coding, you can find me exploring new design patterns, reading tech blogs  Let's build something amazing together!
                 </p>
             </div>
-            <div class="about-image animate-fade-in-right delay-200">
-                <img src="cli/image.com/Screenshot_20250811-135411.jpg" alt="Your Profile Picture" class="profile-pic">
+            <div class="about-image animate-fade-in-right delay-200" style="animation-name: fade-in-right; opacity: 1;">
+                <img src="Screenshot_20250811-135411.jpg" alt="Your Profile Picture" class="profile-pic">
             </div>
         </section>
 
         <section id="skills" class="skills-section">
-            <h2 class="section-title animate-slide-in-right">My Expertise</h2>
+            <h2 class="section-title animate-slide-in-right" style="animation-name: slide-in-right; opacity: 1;">My Expertise</h2>
             <div class="skills-grid">
-                <div class="skill-category animate-fade-in delay-200">
+                <div class="skill-category animate-fade-in delay-200" style="animation-name: fade-in; opacity: 1;">
                     <h3><i class="fas fa-code"></i> Frontend</h3>
                     <ul>
-                        <li><img src="cli/image.com/html5 logo.jpg" alt="HTML5"> HTML5</li>
-                        <li><img src="cli/image.com/css logo.jpg" alt="CSS3"> CSS3</li>
-                        <li><img src="cli/image.com/javascript logo.jpg" alt="JavaScript"> JavaScript (ES6+)</li>
-                        <li><img src="cli/image.com/react logo.jpg" alt="React"> React.js</li>
+                        <li><img src="html5 logo.jpg" alt="HTML5"> HTML5</li>
+                        <li><img src="css logo.jpg" alt="CSS3"> CSS3</li>
+                        <li><img src="javascript logo.jpg" alt="JavaScript"> JavaScript (ES6+)</li>
+                        <!-- <li><img src="react logo.jpg" alt="React"> React.js</li> -->
                         <!-- <li><img src="images/icons/vue.svg" alt="Vue"> Vue.js</li> -->
-                        <li><img src="cli/image.com/taiwind logo.jpg" alt="Tailwind CSS"> Tailwind CSS</li>
+                        <li><img src="taiwind logo.jpg" alt="Tailwind CSS"> Tailwind CSS (Basics)</li>
                     </ul>
                 </div>
-                <div class="skill-category animate-fade-in delay-400">
+                <!-- <div class="skill-category animate-fade-in delay-400">
                     <h3><i class="fas fa-server"></i> Backend</h3>
                     <ul>
-                        <li><img src="cli/image.com/node js logo.jpg" alt="Node.js"> Node.js</li>
-                        <li><img src="cli/image.com/express js logo.jpg" alt="Express.js"> Express.js</li>
-                        <!-- <li><img src="images/icons/python.svg" alt="Python"> Python</li>
-                        <li><img src="images/icons/django.svg" alt="Django"> Django</li> -->
-                        <li><img src="cli/image.com/mogodb logo.jpg" alt="MongoDB"> MongoDB</li>
-                        <li><img src="cli/image.com/post sql logoo.jpg" alt="PostgreSQL"> PostgreSQL</li>
+                        <li><img src="node js logo.jpg" alt="Node.js"> Node.js</li>
+                        <li><img src="" alt="Express.js"> Express.js</li>
+                        <li><img src="images/icons/python.svg" alt="Python"> Python</li>
+                        <li><img src="images/icons/django.svg" alt="Django"> Django</li> 
+                        <li><img src="mogodb logo.jpg" alt="MongoDB"> MongoDB</li>
+                        <li><img src="post sql logoo.jpg" alt="PostgreSQL"> PostgreSQL</li>
                     </ul>
-                </div>
+                </div> -->
                 <div class="skill-category animate-fade-in delay-600">
-                    <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+                    <h3><i class="fas fa-tools"></i> Tools &amp; Others</h3>
                     <ul>
-                        <li><img src="cli/image.com/github logo.jpg" alt="Git"> Git & GitHub</li>
-                        <!-- <li><img src="images/icons/webpack.svg" alt="Webpack"> Webpack</li>
-                        <li><img src="images/icons/npm.svg" alt="NPM"> NPM / Yarn</li> -->
-                        <li><img src="cli/image.com/figma logo.jpg" alt="Figma"> Figma</li>
-                        <li><img src="cli/image.com/docker logo.jpg" alt="Docker"> Docker (Basics)</li>
-                        <li><img src="cli/image.com/aws  logo.jpg" alt="AWS"> AWS (S3, EC2)</li>
+                        <li><img src="github logo.jpg" alt="Git"> Git &amp; GitHub</li>
+                        <!-- <li><img src="images/icons/webpack.svg" alt="Webpack"> Webpack</li> -->
+                        <!-- <li><img src="images/icons/npm.svg" alt="NPM"> NPM / Yarn</li> -->
+                        <li><img src="figma logo.jpg" alt="Figma"> Figma (Basics)</li>
+                        <li><img src="docker logo.jpg" alt="Docker"> Docker (Basics)</li>
+                        <li><img src="aws  logo.jpg" alt="aws  logo.jpg"> AWS (S3, EC2)</li>
                     </ul>
                 </div>
             </div>
@@ -107,46 +106,46 @@
             <h2 class="section-title animate-slide-in-left">Featured Projects</h2>
             <div class="projects-grid">
                 <div class="project-card animate-fade-in delay-200">
-                    <img src="images/projects/project1.jpg" alt="Project 1 Thumbnail" class="project-thumbnail">
+                    <img src="acre farm.jpg" alt="Project 1 Thumbnail" class="project-thumbnail">
                     <div class="project-info">
                         <h3>E-commerce Platform</h3>
                         <p>A full-stack e-commerce site featuring user authentication, product catalog, shopping cart, and payment integration.</p>
                         <div class="project-tech">
-                            <span>React</span> <span>Node.js</span> <span>Express</span> <span>MongoDB</span>
+                            <span>React</span> <span>Node.js</span> <span>Express</span> <span>Tailwind</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" target="_blank" class="btn-link"><i class="fas fa-eye"></i> Live Demo</a>
-                            <a href="#" target="_blank" class="btn-link"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://one-acre.in" target="_blank" class="btn-link"><i class="fas fa-eye"></i> Live Demo</a>
+                            <!-- <a href="#" target="_blank" class="btn-link"><i class="fab fa-github"></i> GitHub</a> -->
                         </div>
                     </div>
                 </div>
 
                 <div class="project-card animate-fade-in delay-400">
-                    <img src="images/projects/project2.jpg" alt="Project 2 Thumbnail" class="project-thumbnail">
+                    <img src="task manager.jpg" alt="Project 2 Thumbnail" class="project-thumbnail">
                     <div class="project-info">
                         <h3>Task Management App</h3>
                         <p>A minimalist task manager with drag-and-drop functionality, real-time updates, and user-friendly interface.</p>
                         <div class="project-tech">
-                            <span>Vue.js</span> <span>Firebase</span> <span>SCSS</span>
+                            <span>HTML</span> <span>CSS</span> <span>JavaScript</span>
                         </div>
-                        <div class="project-links">
+                        <!-- <div class="project-links">
                             <a href="#" target="_blank" class="btn-link"><i class="fas fa-eye"></i> Live Demo</a>
                             <a href="#" target="_blank" class="btn-link"><i class="fab fa-github"></i> GitHub</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 
                 <div class="project-card animate-fade-in delay-600">
-                    <img src="images/projects/project3.jpg" alt="Project 3 Thumbnail" class="project-thumbnail">
+                    <img src="phone review .jpg" alt="Project 3 Thumbnail" class="project-thumbnail">
                     <div class="project-info">
-                        <h3>Personal Blog Site</h3>
-                        <p>A responsive blog platform built with a custom CMS, allowing for easy content creation and management.</p>
+                        <h3>Phone review website</h3>
+                        <p>A simple website for viewing and comparing for specs</p>
                         <div class="project-tech">
-                            <span>Django</span> <span>Python</span> <span>PostgreSQL</span> <span>HTML/CSS</span>
+                            <span>Html</span> <span>CSS</span> <span>JavaScript</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" target="_blank" class="btn-link"><i class="fas fa-eye"></i> Live Demo</a>
-                            <a href="#" target="_blank" class="btn-link"><i class="fab fa-github"></i> GitHub</a>
+                            <!-- <a href="#" target="_blank" class="btn-link"><i class="fas fa-eye"></i> Live Demo</a>
+                            <a href="#" target="_blank" class="btn-link"><i class="fab fa-github"></i> GitHub</a> -->
                         </div>
                     </div>
                 </div>
@@ -162,7 +161,7 @@
                 <p class="animate-fade-in delay-200">
                     Feel free to download my full resume to learn more about my professional experience, education, and skills.
                 </p>
-                <a href="cli/image.com/2.jpg" download class="btn btn-primary animate-fade-in delay-400">
+                <a href="cli/image.com/2.jpg" download="" class="btn btn-primary animate-fade-in delay-400">
                     <i class="fas fa-download"></i> Download Full Resume
                 </a>
                 <div class="resume-highlights animate-fade-in delay-600">
@@ -186,19 +185,19 @@
                 <form class="contact-form animate-fade-in delay-400" id="contactForm">
                     <div class="form-group">
                         <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                        <input type="text" id="name" name="name" required="" placeholder="Your Name">
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                        <input type="email" id="email" name="email" required="" placeholder="your.email@example.com">
                     </div>
                     <div class="form-group">
                         <label for="subject">Subject</label>
-                        <input type="text" id="subject" name="subject" required placeholder="Project Inquiry, Collaboration, etc.">
+                        <input type="text" id="subject" name="subject" required="" placeholder="Project Inquiry, Collaboration, etc.">
                     </div>
                     <div class="form-group">
                         <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="6" required placeholder="Your message here..."></textarea>
+                        <textarea id="message" name="message" rows="6" required="" placeholder="Your message here..."></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Send Message</button>
                     <p id="form-status" class="form-status"></p>
@@ -210,9 +209,9 @@
                     <p><i class="fas fa-phone"></i> <a href="tel:+2347083968050">+2347083968050</a></p>
                     <div class="social-links">
                         <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                        <a href="https://www.instagram.com/codynix07?utm_source=qr&igsh=MXduY2tyd3N4ZnhzNA==" target="_blank" aria-label="instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="https://chat.whatsapp.com/Dsau36R4MO5Dq1b5jYl73l" target="_blank" aria-label="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://github.com/classik1127" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/codynix07?utm_source=qr&amp;igsh=MXduY2tyd3N4ZnhzNA==" target="_blank" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/message/EQ5B6Q4WEIJCP1?src=qr" target="_blank" aria-label="whatsapp"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
@@ -221,141 +220,20 @@
 
     <footer class="footer">
         <div class="footer-content">
-            <p>&copy; <span id="current-year"></span> Emmanuel Victor. All rights reserved.</p>
+            <p>© <span id="current-year">2025</span> Emmanuel Victor. All rights reserved.</p>
             <div class="footer-links">
                 <a href="#privacy">Privacy Policy</a>
                 <a href="#terms">Terms of Service</a>
             </div>
             <button class="back-to-top" id="backToTop">
-                <i class="fas fa-arrow-up"></i>
+<span class="material-symbols-outlined">
+arrow_upward
+</span>
             </button>
         </div>
     </footer>
 
-    <script src="script.js"></script>
-</body>
-</html>
-    <!-- <div class="navbar">
-        <ul class="ul">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#ourmenu">Ourmenu</a></li>
-        <li><a href="#review">Review</a></li>
-        <li><a href="#contact">Contact</a></li>
-
-        </ul>
-    </div>
-    <section ID="home">
-        <div class="home">
-        <p class="homep1">welcome to</p>
-        <h1 class="homeh1">Dish Craft</h1>
-        <h3 class="homeh2">Crafting Flavour, One Dish at a Time</h3>
-        <button class="btn2">Our Story</button>
-        <button class="btn3">Our Menu</button>
-        </div>
-    </section>
-    <section id="about">
-        <div class="container">
-        <div class="card">
-            <img src="" alt="cafe img">
-        </div>
-        <div class="card">
-            <h2 class="abouth1">Dish Craft</h2>
-            <p class="aboutp1">Since 2010, DIsh Craft has been crafting Flavors that blend creativity with tradition. Our chefs use fresh, locally sourced ingredient to create dishes that are ad artful as they are delicious </p>
-            <button class="aboutbtn">Meet chefs</button>
-        </div>
-        </div>
-    </section>
-    <section id="ourmenu">
-        <div class="ourmenucards">
-        <h1 class="ourmenuh1">Delicious Menu</h1>
-        <p class="aboutfdname">Classic Pancakes <span>$8.50</span></p>
-        
-        <p class="aboutfdname">Fried Chips & Egss <span>$11.00</span></p>
-        
-        <p class="aboutfdname">Trench Toast Delight <span>$9.00</span></p>
-            
-        <p class="aboutfdname">Omelette Special <span>$10.50</span></p>
-        
-        <p class="aboutfdname">Avocado Toast <span>$7.50</span></p>
-        
-        </div>
-
-        <div class="ourmenucard">
-        <div class="ourmenucards">
-            <h1 class="ourmenuh1">favorite Menu</h1>
-            <p class="aboutfdname">Choco Waffles <span>$13.50</span></p>
-        
-        <p class="aboutfdname">Pancake Tower <span>$12.00</span></p>
-        
-        <p class="aboutfdname">Bacon eggs <span>$11.50</span></p>
-            
-        <p class="aboutfdname">Deluxe Bagel <span>$13.00</span></p>
-        
-        <p class="aboutfdname">Croissant Platter <span>$14.00</span></p>
-        </div>
-        </div>
-    </section>
-    <section id="review">
-        <p class="reviewp1">ReviewbyCustomer</p>
-        <h2 class="review h2">Testimonials</h2>
-        <div class="testimonial-dot" data-top="1"></div>
-        <div class="testimonial-dot" data-top="2"></div>
-        <div class="testimonial-dot" data-top="3"></div>
+    <script src="scipt.js"></script>
 
 
-        <article class="timeline-item left">
-        <div class="profile">
-            <img src="https://via.placeholder.com/64" alt="Sandra">
-            <div class="meta">
-            <h4>Sandra</h4>
-            <span class="role">Customer</span>
-            </div>
-        </div>
-        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.</p>
-        <div class="rating">4.5 <span class="stars">★★★★☆</span></div>
-        </article>
-
-        <article class="timeline-item right">
-        <div class="profile">
-            <img src="https://via.placeholder.com/64" alt="Don">
-            <div class="meta">
-            <h4>Don</h4>
-            <span class="role">Customer</span>
-            </div>
-        </div>
-        <p class="text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-        <div class="rating">4.8 <span class="stars">★★★★★</span></div>
-        </article>
-
-        <article class="timeline-item left">
-        <div class="profile">
-            <img src="https://via.placeholder.com/64" alt="Alice">
-            <div class="meta">
-            <h4>Alice</h4>
-            <span class="role">Customer</span>
-            </div>
-        </div>
-        <p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
-        <div class="rating">4.7 <span class="stars">★★★★☆</span></div>
-        </article>
-
-    </section>
-    <section id="contact">
-        <div class="cards">
-        <div class="cards">
-            <p class="contactp1">SayHello</p>
-            <h2 class="contacth1">Contact</h2>
-            <form action="">
-            <label for="name" class="label">Name</label>
-            <input type="text" id="name" required placeholder="Enter your name">
-            <label for="email" class="label">Email</label>
-            <input type="email" id="email" required placeholder="Enter your Email"><br><br>
-            <label for="massage" class="labelm">Massage</label><br>
-            <textarea name="massage" rows="4"  id="massage" required placeholder="Enter your massage"></textarea><br>  
-            <button type="submit">Send Massage</button>
-        </div>
-        </form>
-        <div class="cards"></div>
-        </div>
-    </section> -->
+    </body>

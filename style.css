@@ -553,8 +553,9 @@ body.dark-mode .skill-category li {
 
 .skill-category li img {
     width: 30px;   
-    height: 30px;
+    height: 40px;
     object-fit: contain;
+    border-radius: 10px;
 }
 
 /* --- Projects Section --- */
